@@ -1,4 +1,4 @@
-onfiguration for Basic Development
+# Nvim Configuration for Basic Development
 
 ![Neovim Logo](https://neovim.io/logos/neovim-mark-flat.png)
 
