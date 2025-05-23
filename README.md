@@ -92,9 +92,9 @@ return {
 
 1. Make sure you have Neovim (v0.9+) installed
 2. Clone this repository to your Neovim config directory:
-
+3. Used [Nerd-Font](https://www.nerdfonts.com/)
 ```bash
-git clone https://github.com/yourusername/nvim-config.git ~/.config/nvim
+git clone https://github.com/GitByQubit/nvim.git ~/.config
 ```
 
 3. Start Neovim and let lazy.nvim install all plugins:
@@ -113,13 +113,11 @@ nvim +Lazy sync
 
 | Keybinding | Action |
 |------------|--------|
-| `<leader>e` | Toggle Neo-tree file explorer |
-| `<leader>ff` | Find files with Telescope |
-| `<leader>fg` | Live grep with Telescope |
-| `gd` | Go to definition (LSP) |
-| `K` | Show documentation (LSP) |
-| `<leader>rn` | Rename symbol (LSP) |
-| `<leader>ca` | Code actions (LSP) |
+| `<space>a` | Toggle Neo-tree file explorer |
+| `<space>ff` | Find files with Telescope |
+| `<space>fg` | Live grep with Telescope |
+| `<space>fb` | Buffers with Telescope |
+| `<space>en` | Plugins config with Telescope |
 
 ## 🌟 Additional Features
 
